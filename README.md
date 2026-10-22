@@ -1,4 +1,4 @@
-# Hi, I'm scaleoka
+# Hi, I'm Alina.
 
 **Python Automation & Data Infrastructure Engineer**
 
