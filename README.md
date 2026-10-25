@@ -25,7 +25,7 @@ A Python data processing pipeline focused on extraction, validation, and reliabl
 
 Key areas: data validation, reproducible processing, automated tests, and safe output handling.
 
-### [MinersUnion Parser](https://github.com/scaleoka/minersunion-parser)
+### [Bittensor Validator Data Pipeline](https://github.com/scaleoka/minersunion-parser](https://github.com/scaleoka/bittensor-validator-data-pipeline)
 
 A Python integration for retrieving Bittensor validator metrics through an external API and exporting structured results to Google Sheets.
 
