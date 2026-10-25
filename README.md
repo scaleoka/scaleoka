@@ -19,17 +19,24 @@ My engineering focus is on data correctness, fault tolerance, operational reliab
 
 ## Selected projects
 
+### [Bittensor Validator Data Pipeline](https://github.com/scaleoka/bittensor-validator-data-pipeline)
+
+A Python diagnostic pipeline prototype for Bittensor validator data, with bounded API collection, strict data validation, and deterministic, redacted JSON reporting.
+
+**Engineering highlights:**
+- Bounded HTTP responses, pagination limits, and explicit timeouts.
+- High-precision Decimal handling and structured error reporting.
+- Per-subnet failure isolation and explicit tracking of incomplete data.
+- Atomic file writes and protection against unintended data exposure.
+- Reproducible offline demonstration and automated pytest checks in GitHub Actions.
+
+*The HTTP client and collectors are tested with synthetic responses; live API compatibility and production readiness are not claimed.*
+
 ### [Taostats Parser](https://github.com/scaleoka/taostats-parser)
 
 A Python data processing pipeline focused on extraction, validation, and reliable publication of structured data.
 
 Key areas: data validation, reproducible processing, automated tests, and safe output handling.
-
-### [Bittensor Validator Data Pipeline](https://github.com/scaleoka/minersunion-parser](https://github.com/scaleoka/bittensor-validator-data-pipeline)
-
-A Python integration for retrieving Bittensor validator metrics through an external API and exporting structured results to Google Sheets.
-
-Key areas: API integration, data transformation, and scheduled automation.
 
 ## Engineering interests
 
